@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("backgorund.js is executed"),chrome.storage.local.set({algorithmOption:"AlgorithmOption1"}),chrome.storage.local.set({algorithmKey:0})})();

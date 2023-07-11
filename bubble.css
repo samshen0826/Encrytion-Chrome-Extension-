@@ -1,0 +1,48 @@
+#bubbleWrapper {
+    z-index: 99999;
+    position: fixed;
+    display: flex;
+    gap: 10px;
+
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#bubbleButtonList {
+    display: flex;
+    gap: 5px;
+}
+
+#bubbleText {
+    color: black;
+    background-color: #ffe;
+    font-weight: lighter;
+
+    min-height: 55px;
+    min-width: 100px;
+    max-width: 300px;
+    word-wrap: break-word;
+    padding: 5px 10px 5px 10px;
+    border: solid 2px black;
+    /*border-radius: 20px;*/
+}
+
+#bubbleButton {
+    color: black;
+    background-color: #ffe;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    height: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+#bubbleButton:hover {
+    background-color: white;
+}
+#bubbleButton:active {
+    transform: translateY(2px);
+}

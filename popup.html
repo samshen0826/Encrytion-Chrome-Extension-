@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Setting Page</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h2>Algorithm</h2>
+            <div>
+                <input type="radio" id="AlgorithmOption1" name= "AlgorithmOptions" value = "AES"/>
+                <label for="AlgorithmOption1">AES</label>
+            </div>
+            <div>
+                <input type="radio" id="AlgorithmOption2" name= "AlgorithmOptions" value = "Base64"/>
+                <label for="AlgorithmOption2">Base64</label>
+            </div>
+        </div>
+
+        <div id = "wrapper">
+            <h2>Key</h2>
+            <input id="keyTextbox" style="display: inline-block;">
+        </div>
+
+        <div id = "wrapper">
+            <h2>Instruction</h2>
+            <p>1. Select some text</p>
+            <p>2. Press the "Y" button to copy the text appears</p>
+            <p>3. Press the "D" or "E" button to switch between encode/decode mode</p>
+        </div>
+    </body>
+    <script src="popup.js"></script>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</html>

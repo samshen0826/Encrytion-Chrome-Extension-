@@ -1,0 +1,48 @@
+body {
+	font-family: monospace;
+	
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+    color: black;
+    background-color: #ffe;
+}
+
+#wrapper {
+	padding: 10px;
+
+	border: solid 2px black;
+}
+
+h2 {
+	margin-block-start: 0px;
+	margin-block-end: 10px;
+
+	font-size: 20px;
+	text-align: left;
+
+	padding-bottom: 5px;
+
+	border-bottom: solid 1px black;
+}
+
+label {
+	font-weight: lighter;
+	font-size: 16px;
+	opacity: 0.6;
+}
+
+label:hover {
+	opacity: 1;
+}
+input:checked ~ label {
+	opacity: 1;
+}
+
+#keyTextbox {
+	font-family: inherit;
+	font-weight: lighter;
+
+	border-radius: 0px;
+}

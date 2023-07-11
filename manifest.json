@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "author": "Sucheng Shen",
+    "author": "Sam Shen",
     "name": "Encrypt",
     "version": "0.0.1",
     "description": "Encode and decode text selected using Crypto-js",
